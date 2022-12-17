@@ -10,9 +10,9 @@
 
 :root {
   /* COLORS */
-  --BGCOLOR: #0F172A;
+  --BGCOLOR: rgb(40, 40, 40);
   --BORDER-COLOR: #FFF;
-  --COLOR: #FFF;
+  --COLOR: rgb(241, 241, 241);
   --ERROR: firebrick;
   --INACTIVE: lightgray;
   --LINK-COLOR: whitesmoke;
@@ -40,7 +40,7 @@
 .icon-button {
   width: 48px;
   height: 48px;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   background-color: transparent;
   border: none;
   color: var(--COLOR);
