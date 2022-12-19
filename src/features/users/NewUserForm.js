@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useAddNewUserMutation } from "./userApiSlice"
+import { useAddNewUserMutation } from "./usersApiSlice"
 import { useNavigate } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSave } from "@fortawesome/free-solid-svg-icons"
@@ -59,7 +59,6 @@ const NewUserForm = () => {
         e.preventDefault()
         if (canSave) {
             await addNewUser({ username, password, roles })
-            await console.log({ username, password, roles})
         }
     }
 
